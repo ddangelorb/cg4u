@@ -4,15 +4,18 @@
     * Purpose: All projects authentication
     * Tech stack: 
         * dotnet core class library
+        * dotnet core WebAPI
         * dotnet core identity client
 * core/server
     * Purpose: All projects core behaviour
     * Tech stack: 
         * dotnet core class library
+        * dotnet core WebAPI
 * donate
     * Purpose: Donate project
     * Tech stack: 
         * dotnet core class library
+        * dotnet core WebAPI
         * Xamarin.Forms
 * eassitant
     * TBD
@@ -30,6 +33,7 @@
     * Purpose: Asset security project
     * Tech stack: 
         * dotnet core class library
+        * dotnet core WebAPI
         * Xamarin.Forms
         * AWS Kinesis integration
 
