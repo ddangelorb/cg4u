@@ -21,7 +21,7 @@
     * Tech stack: 
         * [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
         * HTML
-        * Typescript
+        * TypeScript
 * pin/server
     * Purpose: All projects authentication
     * Tech stack: 
