@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CG4U.Security.ClientApp.Views.AlertPage"
+    Title="Alertas">
+    <ContentPage.Content>
+        <ListView 
+            x:Name="AlertListView" 
+            ItemsSource="{Binding Alerts}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Image="{Binding TypeImageFile}" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" />
+                                    <Label Grid.Column="1" Text="{Binding TypeTitle}" VerticalTextAlignment="Center" />
+                                </Grid>
+                                <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Image="{Binding ProcessingMethodImageFile}" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" />
+                                    <Label Grid.Column="1" Text="{Binding Message}" VerticalTextAlignment="Center" />
+                                    <Button Grid.Column="2" Image="icon_attachment" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" />
+                                </Grid>
+                            </StackLayout>                            
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

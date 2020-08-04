@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CG4U.Security.Domain\CG4U.Security.Domain.csproj" />
+    <ProjectReference Include="..\CG4U.Security.Infra.Data\CG4U.Security.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Services\CG4U.Core.Services.csproj" />
+    <ProjectReference Include="..\CG4U.Security.Services\CG4U.Security.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="MediatR" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.1" />
+  </ItemGroup>
+</Project>

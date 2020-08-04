@@ -1,0 +1,14 @@
+Tips:
+https://www.groovehq.com/support/auto-reply-email
+
+https://www.vooo.pro/insights/6-passos-faceis-para-aprender-o-algoritmo-naive-bayes-com-o-codigo-em-python/
+https://github.com/joelmartinez/nBayes
+https://www.codeproject.com/Articles/14270/A-Naive-Bayesian-Classifier-in-C
+
+https://www.quora.com/What-is-the-best-approach-for-text-categorization
+
+https://peerj.com/preprints/26531/ - Page 6
+
+https://machinelearningmastery.com/applications-of-deep-learning-for-natural-language-processing/
+
+https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice

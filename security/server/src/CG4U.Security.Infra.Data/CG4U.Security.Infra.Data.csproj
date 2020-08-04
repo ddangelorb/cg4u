@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+    <ProjectReference Include="..\CG4U.Security.Domain\CG4U.Security.Domain.csproj" />
+  </ItemGroup>
+</Project>

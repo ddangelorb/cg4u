@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:cc="clr-namespace:CG4U.Security.ClientApp.CustomCells;assembly=CG4U.Security.ClientApp"
+    x:Class="CG4U.Security.ClientApp.Views.ChatPage"
+    Title="Chat">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="toolbarNew" Icon="icon_new.png" Order="Primary" Priority="1" Clicked="OnToolbarNewClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <cc:ChatDataTemplateSelector x:Key="ChatTemplateSelector"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid RowSpacing="0" ColumnSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <!--Messages in Row 0 -->
+        <ListView 
+            x:Name="ChatListView" 
+            ItemTemplate="{StaticResource ChatTemplateSelector}" 
+            ItemsSource="{Binding Messages}" 
+            HasUnevenRows="True" 
+            ItemSelected="OnChatListViewItemSelected" 
+            ItemTapped="OnChatListViewItemTapped" 
+            SeparatorVisibility="None" />
+        
+        <!-- Entry and Send button in Row 1 -->
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Padding="10" BackgroundColor="#EFEFEF">
+            <Entry 
+                HorizontalOptions="FillAndExpand" 
+                HeightRequest="25" 
+                Placeholder="Mensagem" 
+                Text="{Binding OutGoingText}"/>
+            <Button 
+                Text="Enviar" 
+                Command="{Binding SendCommand}"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

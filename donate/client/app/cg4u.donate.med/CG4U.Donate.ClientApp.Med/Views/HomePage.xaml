@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CG4U.Donate.ClientApp.Med.Views.HomePage" Title="Início">
+    <ContentPage.ToolbarItems>
+        <!-- <ToolbarItem Name="MenuCG4UMedIcon" Icon="tab_cg4med.png" Order="Primary" Priority="0" /> -->
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+        <StackLayout BackgroundColor="{StaticResource Accent}">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView VerticalOptions="FillAndExpand">
+                    <Image Source="cog4med.png" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <Label FontSize="22">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Cog4Med" FontAttributes="Bold" FontSize="22" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Você possui algum medicamento que não vai mais usar e está prestes a vencer? " />
+                        <Span Text="E aquele outro medicamento que você comprou um pouco a mais e não sabe o que fazer?" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Porque não doar para quem precisa ao invés de descartar?" FontAttributes="Bold" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="O aplicativo " />
+                        <Span Text="Cog4Med " FontAttributes="Bold" />
+                        <Span Text="une o doador do medicamento com o receptor, gerando eficiência e reaproveitamento de medicamentos bons e válidos que seriam descartados no lixo. Essa corrente do bem pode e vai ajudar muitas pessoas. Participe!" />
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>

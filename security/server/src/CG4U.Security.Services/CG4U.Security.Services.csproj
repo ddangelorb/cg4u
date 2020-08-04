@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="Data\" />
+    <Folder Include="Services\Azure\" />
+    <Folder Include="Services\Mock\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.ProjectOxford.Common.DotNetCore" Version="1.1.0" />
+    <PackageReference Include="Microsoft.ProjectOxford.Face.DotNetCore" Version="1.1.0" />
+    <PackageReference Include="Microsoft.ProjectOxford.Vision.DotNetCore" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CG4U.Security.Domain\CG4U.Security.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CG4U.Donate.ClientApp.Med.Views.Trade.NewBlankTradePage" 
+    xmlns:behavior="clr-namespace:CG4U.Donate.ClientApp.Med.Behaviors"
+    Title="Compartilhar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="toolbarItemAdd" Icon="tab_plus.png" Order="Primary" Priority="1" Clicked="OnToolbarItemAddClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView HeightRequest="10" BackgroundColor="White"/> 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" x:Name="imgDonation" />
+                <Label Grid.Column="1" Grid.Row="0" x:Name="labelDonation" VerticalTextAlignment="Center" />
+            </Grid>
+            <TableView Intent="Settings">
+                <TableView.Root> 
+                    <TableSection Title="Doador">
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_donate.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="{Binding DonorName}" VerticalTextAlignment="Center" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Paciente">
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="140"></ColumnDefinition>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="140"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Grid.Row="0" Image="tab_search.png" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" Clicked="OnButtonRGTapped" CommandParameter="{Binding PatientRG}" />
+                                    <Entry Grid.Column="1" Grid.Row="0" x:Name="entryRG" Text="{Binding PatientRG}" Placeholder="RG" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default">
+                                        <Entry.Behaviors>
+                                            <behavior:MaskedBehavior Mask="XX.XXX.XXX-X" />
+                                        </Entry.Behaviors>                                            
+                                    </Entry>
+                                    <Button Grid.Column="2" Grid.Row="0" Image="tab_search.png" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" Clicked="OnButtonCpfCnpjTapped" CommandParameter="{Binding PatientCpfCnpj}" />
+                                    <Entry Grid.Column="3" Grid.Row="0" x:Name="entryCpfCnpj" Text="{Binding PatientCpfCnpj}" Placeholder="CPF" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default">
+                                        <Entry.Behaviors>
+                                            <behavior:MaskedBehavior Mask="XXX.XXX.XXX-XX" />
+                                        </Entry.Behaviors>                                            
+                                    </Entry>
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                          
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Grid.Row="0" Text="{Binding PatientName}" VerticalTextAlignment="Center" />
+                                    <Label Grid.Column="0" Grid.Row="1" Text="{Binding PatientAddress}" VerticalTextAlignment="Center" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Receita">
+                        <ViewCell> 
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_photo.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Frente" VerticalTextAlignment="Center" />
+                                    <Switch Grid.Column="2" Grid.Row="0" x:Name="switchPrescription" IsToggled="{Binding ImgPrescriptionSelected}" HorizontalOptions="EndAndExpand" Toggled="OnSwitchPrescriptionToggled" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell> 
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_photo.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Verso" VerticalTextAlignment="Center" />
+                                    <Switch Grid.Column="2" Grid.Row="0" x:Name="switchPrescriptionBack" IsToggled="{Binding ImgPrescriptionBackSelected}" HorizontalOptions="EndAndExpand" Toggled="OnSwitchPrescriptionBackToggled" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Coleta">                        
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_quantity.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Quantidade" VerticalTextAlignment="Center" />
+                                    <Entry Grid.Column="2" Grid.Row="0" x:Name="entryQuantity" Text="{Binding QuantityDonated}" WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="EndAndExpand" Keyboard="Numeric" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_expirationdate.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Retorno" VerticalTextAlignment="Center" />
+                                    <DatePicker Grid.Column="2" Grid.Row="0" x:Name="datePickerReturn" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Date="{Binding ReturnDate}" Format="dd/MM/yyyy" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_finishCar.png" />
+                                    <Entry Grid.Column="1" Grid.Row="0" x:Name="entryWhoCollected" Text="{Binding WhoCollected}" Placeholder="Quem coletou?" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default" /> 
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                          
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

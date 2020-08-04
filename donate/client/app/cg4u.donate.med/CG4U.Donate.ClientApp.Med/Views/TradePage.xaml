@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CG4U.Donate.ClientApp.Med.Views.TradePage"
+    xmlns:views="clr-namespace:CG4U.Donate.ClientApp.Med.Views.Donate"
+    Title="Compartilhar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="toolbarItemAddNewBlankTrade" Icon="tab_shareplus.png" Order="Primary" Priority="1" Clicked="OnToolbarItemAddNewBlankTradeClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout IsVisible="{Binding IsTabGivenVisible}">
+                <SearchBar x:Name="searchBarGiven" Text="{Binding QueryMatch, Mode=TwoWay}" SearchCommand="{Binding MatchDesiredsCommand}" BackgroundColor="Transparent" Placeholder="Encontre um receptor..."/>
+            </StackLayout>        
+            <StackLayout IsVisible="{Binding IsTabDesiredVisible}">
+                <SearchBar x:Name="searchBarDesired" Text="{Binding QueryMatch, Mode=TwoWay}" SearchCommand="{Binding MatchGivensCommand}" BackgroundColor="Transparent" Placeholder="Encontre um doador..."/>
+            </StackLayout>        
+
+            <Grid BackgroundColor="#FAFAFA" Padding="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Text="Histórico" Grid.Column="0"  TextColor="{Binding IsTabHistoryVisible, Blue}" VerticalOptions="Center" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"></Label>
+
+                <Label Text="Doações" Grid.Column="1"  TextColor="{Binding IsTabGivenVisible, Blue}" VerticalOptions="Center" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand" FontAttributes="Bold"></Label>
+
+                <Label Text="Recebimentos" Grid.Column="2"   TextColor="{Binding IsTabDesiredVisible, Blue}" VerticalOptions="Center" HorizontalTextAlignment="Center"  HorizontalOptions="CenterAndExpand" FontAttributes="Bold"></Label>
+
+                <BoxView BackgroundColor="#80FF0000" IsVisible="{Binding IsTabHistoryVisible}" HeightRequest="3" Grid.Column="0" VerticalOptions="End" ></BoxView>
+                <BoxView BackgroundColor="#80FF0000"  IsVisible="{Binding IsTabGivenVisible}" HeightRequest="3" Grid.Column="1" VerticalOptions="End" ></BoxView>
+                <BoxView BackgroundColor="#80FF0000"  IsVisible="{Binding IsTabDesiredVisible}"  HeightRequest="3" Grid.Column="2" VerticalOptions="End" ></BoxView>
+
+                <ContentView BackgroundColor="Transparent" Grid.Column="0">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTabHistoryTapped"></TapGestureRecognizer>
+                    </ContentView.GestureRecognizers>
+                </ContentView>
+
+                <ContentView BackgroundColor="Transparent" Grid.Column="1">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTabGivenTapped"></TapGestureRecognizer>
+                    </ContentView.GestureRecognizers>
+                </ContentView>
+
+                <ContentView BackgroundColor="Transparent" Grid.Column="2">
+                    <ContentView.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTabDesiredTapped"></TapGestureRecognizer>
+                    </ContentView.GestureRecognizers>
+                </ContentView>
+            </Grid>
+
+            <StackLayout IsVisible="{Binding IsTabHistoryVisible}" Padding="5,10,5,10">
+                <!--<views:DonateHistoryView />-->
+                <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="2" Grid.Row="0" Text="Analgésicos e Antitérmicos"  HorizontalTextAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="1" Source="tab_donate.png" />
+                    <Image Grid.Column="1" Grid.Row="1" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="1" Text="Daniel Barros" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="1" Source="tab_halfblackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="3" Grid.Row="1" Source="tab_photo.png" />
+                    <Image Grid.Column="0" Grid.Row="2" Source="tab_search.png" />
+                    <Image Grid.Column="1" Grid.Row="2" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="2" Text="Carlos Silva" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="2" Source="tab_blackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="2" Grid.Row="2" Source="tab_halfblackstar.png" HeightRequest="10" />
+                    <BoxView Grid.Column="2" Grid.Row="3" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" ></BoxView>
+                    
+                    <Label Grid.Column="2" Grid.Row="4" Text="Tylenol Sinus"  HorizontalTextAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="5" Source="tab_donate.png" />
+                    <Image Grid.Column="1" Grid.Row="5" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="5" Text="Daniel Barros" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="5" Source="tab_halfblackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="3" Grid.Row="5" Source="tab_photo.png" />
+                    <Image Grid.Column="0" Grid.Row="6" Source="tab_search.png" />
+                    <Image Grid.Column="1" Grid.Row="6" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="6" Text="Ricardo Souza" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="6" Source="tab_blackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="2" Grid.Row="6" Source="tab_halfblackstar.png" HeightRequest="10" />
+                    <BoxView Grid.Column="2" Grid.Row="7" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" ></BoxView>
+
+                    <Label Grid.Column="2" Grid.Row="8" Text="Antibióticos"  HorizontalTextAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="9" Source="tab_donate.png" />
+                    <Image Grid.Column="1" Grid.Row="9" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="9" Text="Antonio Moraes" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="9" Source="tab_blackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="2" Grid.Row="9" Source="tab_halfblackstar.png" HeightRequest="10" />
+                    <Image Grid.Column="3" Grid.Row="9" Source="tab_photo.png" />
+                    <Image Grid.Column="0" Grid.Row="10" Source="tab_search.png" />
+                    <Image Grid.Column="1" Grid.Row="10" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="10" Text="Daniel Barros" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="2" Grid.Row="10" Source="tab_blackstar.png" HeightRequest="10" />
+                    <BoxView Grid.Column="2" Grid.Row="11" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" ></BoxView>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout IsVisible="{Binding IsTabGivenVisible}" Padding="5,10,5,10">
+                <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="2" Grid.Row="0" Text="Tylenol"  HorizontalTextAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="1" Source="tab_donate.png" />
+                    <Image Grid.Column="1" Grid.Row="1" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="1" Text="Daniel Barros" VerticalTextAlignment="Center" />
+                    <Image Grid.Column="3" Grid.Row="1" Source="tab_photo.png" />
+                    <BoxView Grid.Column="2" Grid.Row="2" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" ></BoxView>
+                </Grid>                
+            </StackLayout>
+
+            <StackLayout IsVisible="{Binding IsTabDesiredVisible}" Padding="5,10,5,10">
+                <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="2" Grid.Row="0" Text="Amoxilina"  HorizontalTextAlignment="Center" />
+                    <Image Grid.Column="0" Grid.Row="1" Source="tab_search.png" />
+                    <Image Grid.Column="1" Grid.Row="1" Source="tab_user.png" />
+                    <Label Grid.Column="2" Grid.Row="1" Text="Daniel Barros" VerticalTextAlignment="Center" />
+                    <BoxView Grid.Column="2" Grid.Row="2" BackgroundColor="Black" HeightRequest="3" VerticalOptions="End" ></BoxView>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

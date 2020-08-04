@@ -1,0 +1,16 @@
+tr.row-name-light
+{
+    background: lightgray;
+    color: black;
+}
+
+tr.row-name
+{
+    background:#0BAAC6; 
+    color:white;
+}
+
+tr.row-content
+{
+    color:#6c7173;
+}

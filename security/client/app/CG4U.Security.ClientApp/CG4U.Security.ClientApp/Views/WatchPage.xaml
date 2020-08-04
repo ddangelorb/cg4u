@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CG4U.Security.ClientApp.Views.WatchPage"
+    xmlns:libvlc="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+    BackgroundColor="White">
+    <ContentPage.Content>
+         <ScrollView>
+            <StackLayout HeightRequest="1000" VerticalOptions="FillAndExpand" Spacing="0">
+                <StackLayout  x:Name="layoutVideos" HeightRequest="250" VerticalOptions="FillAndExpand">            
+                    <libvlc:VideoView 
+                        x:Name="videoLibVlc" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand"/> 
+                    
+                    <libvlc:VideoView 
+                        x:Name="videoLibVlc2" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="FillAndExpand"/> 
+                    
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="5">
+                    <Image Source="button_seek_backward.png" HeightRequest="48" Aspect="AspectFit">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnButtonSeekBackwardTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image x:Name="PlayButton" Source="button_play.png" HeightRequest="48" Aspect="AspectFit">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnButtonPlayTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image x:Name="PauseButton" Source="button_pause.png" IsVisible="False" HeightRequest="48" Aspect="AspectFit">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnButtonPauseTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="button_seek_forward.png" HeightRequest="48" Aspect="AspectFit">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnButtonSeekForwardTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+
+              <Grid BackgroundColor="#96d1ff" ColumnSpacing="0" Padding="10">
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto" />
+                  <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="{Binding CurrentTime, StringFormat=\{0:mm\\:ss\}}" FontSize="24" Grid.Row="0" Grid.Column="0" />
+                <Label Text="Time" FontAttributes="Bold" FontSize="10" TextColor="#666" Grid.Row="1" Grid.Column="0" />
+
+                <Label Text="{Binding State}" FontSize="24" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Current State" FontAttributes="Bold" FontSize="10" TextColor="#666" Grid.Row="1" Grid.Column="1" />
+              </Grid>
+
+              <ListView x:Name="Playlist" HasUnevenRows="True" ItemSelected="Playlist_OnItemSelected">
+                <ListView.ItemTemplate>
+                  <DataTemplate>
+                    <ImageCell ImageSource="{Binding ImageFileSorce}" Text="{Binding Name}" Detail="{Binding Description}" TextColor="Black" DetailColor="Gray" />
+                  </DataTemplate>
+                </ListView.ItemTemplate>
+              </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

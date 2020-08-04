@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+    <ProjectReference Include="..\CG4U.Core.Services\CG4U.Core.Services.csproj" />
+    <ProjectReference Include="..\CG4U.Core.Domain\CG4U.Core.Domain.csproj" />
+    <ProjectReference Include="..\CG4U.Core.Infra.Data\CG4U.Core.Infra.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="3.0.1" />
+  </ItemGroup>
+</Project>

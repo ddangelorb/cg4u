@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="MediatR" Version="3.0.1" />
+    <PackageReference Include="FluentValidation" Version="7.5.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Donations\" />
+    <Folder Include="Trades\" />
+    <Folder Include="Donations\Commands\" />
+    <Folder Include="Donations\Events\" />
+    <Folder Include="Donations\Repository\" />
+    <Folder Include="Donations\Models\" />
+    <Folder Include="Common\" />
+    <Folder Include="Trades\Commands\" />
+    <Folder Include="Trades\Events\" />
+    <Folder Include="Trades\Repository\" />
+    <Folder Include="Trades\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    x:Name="GivenPage" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="CG4U.Donate.ClientApp.Med.Views.GivenPage" 
+    xmlns:behavior="clr-namespace:CG4U.Donate.ClientApp.Med.Behaviors"
+    Title="Doar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="toolbarItemAdd" Icon="tab_plus.png" Order="Primary" Priority="1" Clicked="OnToolbarItemAddClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView HeightRequest="10" BackgroundColor="White"/> 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" x:Name="imgDonation" />
+                <Label Grid.Column="1" Grid.Row="0" x:Name="labelDonation" VerticalTextAlignment="Center" />
+            </Grid>
+            <TableView Intent="Settings">
+                <TableView.Root> 
+                    <TableSection Title="Doação">
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_quantity.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Quantidade" VerticalTextAlignment="Center" />
+                                    <Entry Grid.Column="2" Grid.Row="0" x:Name="entryQuantity" Text="{Binding Quantity}" WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="EndAndExpand" Keyboard="Numeric" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell> 
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_photo.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Imagem" VerticalTextAlignment="Center" />
+                                    <Switch Grid.Column="2" Grid.Row="0" x:Name="switchImage" IsToggled="{Binding ImgSelected}" HorizontalOptions="EndAndExpand" Toggled="OnSwitchImageToggled" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="95"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_expirationdate.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="Validade" VerticalTextAlignment="Center" />
+                                    <DatePicker Grid.Column="2" Grid.Row="0" x:Name="datePickerExpiration" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Date="{Binding ExpirationDate}" Format="dd/MM/yyyy" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Endereço">
+                        <ViewCell Tapped="OnViewCellGPSTapped">
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_worldpin.png" />
+                                    <Label Grid.Column="1" Grid.Row="0" Text="GPS" VerticalTextAlignment="Center" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_pin.png" />
+                                    <Entry Grid.Column="1" Grid.Row="0" x:Name="entryAddress" Text="{Binding Address}" Placeholder="Endereço" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                          
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="1*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_city.png" />
+                                    <Entry Grid.Column="1" Grid.Row="0" x:Name="entryCity" Text="{Binding City}" Placeholder="Cidade" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default" />
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                             
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="150"></ColumnDefinition>
+                                        <ColumnDefinition Width="20"></ColumnDefinition>
+                                        <ColumnDefinition Width="150"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Source="tab_state.png" />
+                                    <Picker Grid.Column="1" Grid.Row="0" x:Name="pickerState" HorizontalOptions="FillAndExpand" Title="Estado" />
+                                    <Image Grid.Column="2" Grid.Row="0" Source="tab_zipcode.png" />
+                                    <Entry Grid.Column="3" Grid.Row="0" x:Name="entryZipCode" Text="{Binding ZipCode}" Placeholder="CEP" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Keyboard="Default" >
+                                        <Entry.Behaviors>
+                                            <behavior:MaskedBehavior Mask="XXXXX-XXX" />
+                                        </Entry.Behaviors>                                            
+                                    </Entry>
+                                </Grid>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                        
+                    </TableSection>
+                    <TableSection Title="Distância máxima">
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                    <Label Grid.Column="2" Grid.Row="0" Text="5 Kilometros" VerticalTextAlignment="Center" x:Name="labelKM" />                                        
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                        
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                    <Slider Grid.Column="2" Grid.Row="0" Minimum="0" Maximum="15" Value="{Binding MaxDistanceLet}" x:Name="sliderMaxLet" ValueChanged="OnMaxLetSliderChanged" />
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>                        
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

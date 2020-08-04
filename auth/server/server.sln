@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG4U.Auth.WebAPI", "src\CG4U.Auth.WebAPI\CG4U.Auth.WebAPI.csproj", "{5B144A54-9F9F-48B1-B3BC-68D896FDC845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1A11BE58-3167-476A-9A2C-09219EC214D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5638413E-5122-4B98-A9FB-259E8164BBA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{FC94BACF-73CE-431F-AE96-58D7FABA0247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG4U.Core.Services", "..\..\core\server\src\CG4U.Core.Services\CG4U.Core.Services.csproj", "{28263424-9DAF-4412-9432-9F4A79DD561F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG4U.Core.Common.Domain", "..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj", "{23D3E2F1-D77C-4AF0-A628-930DE387906A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG4U.Auth.Infra.CrossCutting.Ioc", "src\CG4U.Auth.Infra.CrossCutting.Ioc\CG4U.Auth.Infra.CrossCutting.Ioc.csproj", "{314C41D1-672E-4FE3-AE34-A4BF379E916B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B144A54-9F9F-48B1-B3BC-68D896FDC845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B144A54-9F9F-48B1-B3BC-68D896FDC845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B144A54-9F9F-48B1-B3BC-68D896FDC845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B144A54-9F9F-48B1-B3BC-68D896FDC845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28263424-9DAF-4412-9432-9F4A79DD561F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28263424-9DAF-4412-9432-9F4A79DD561F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28263424-9DAF-4412-9432-9F4A79DD561F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28263424-9DAF-4412-9432-9F4A79DD561F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D3E2F1-D77C-4AF0-A628-930DE387906A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D3E2F1-D77C-4AF0-A628-930DE387906A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D3E2F1-D77C-4AF0-A628-930DE387906A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D3E2F1-D77C-4AF0-A628-930DE387906A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314C41D1-672E-4FE3-AE34-A4BF379E916B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314C41D1-672E-4FE3-AE34-A4BF379E916B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314C41D1-672E-4FE3-AE34-A4BF379E916B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314C41D1-672E-4FE3-AE34-A4BF379E916B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B144A54-9F9F-48B1-B3BC-68D896FDC845} = {1A11BE58-3167-476A-9A2C-09219EC214D3}
+		{28263424-9DAF-4412-9432-9F4A79DD561F} = {1A11BE58-3167-476A-9A2C-09219EC214D3}
+		{23D3E2F1-D77C-4AF0-A628-930DE387906A} = {5638413E-5122-4B98-A9FB-259E8164BBA0}
+		{314C41D1-672E-4FE3-AE34-A4BF379E916B} = {FC94BACF-73CE-431F-AE96-58D7FABA0247}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CG4U.Donate.ClientApp.Med.Views.DesiredPage" Title="Receber">
+    <ContentPage.ToolbarItems>
+        <!-- <ToolbarItem Name="MenuCG4UMedIcon" Icon="tab_cg4med.png" Order="Primary" Priority="0" /> -->
+        <ToolbarItem Name="MenuUserIcon" Icon="tab_user.png" Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <ScrollView Grid.Row="1">
+        <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+            <SearchBar x:Name="searchBar" BackgroundColor="Transparent" Placeholder="Selecione..."/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Máxima distancia: " />
+                            <Span Text="5 Kilometros" FontAttributes="Bold" x:Name="spanKM" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Slider
+                Minimum="0"
+                Maximum="15"
+                Value = "5"
+                x:Name="sliderMaxGet"
+                ValueChanged="OnMaxGetSliderChanged" />
+
+            <TableView>
+                <TableView.Root>
+                    <TableSection Title="Busca">        
+                        <ImageCell ImageSource="tab_commit.png" Text="Analgésicos e Antitérmicos"  />
+                        <ImageCell ImageSource="tab_commit.png" Text="Antibióticos" />
+                        <ImageCell ImageSource="tab_commit.png" Text="Tylenol Sinus" />
+                    </TableSection>
+                </TableView.Root>
+            </TableView>        
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

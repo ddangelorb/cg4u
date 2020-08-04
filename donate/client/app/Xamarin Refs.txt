@@ -1,0 +1,42 @@
+https://www.lambda3.com.br/2017/04/entendendo-xamarin-forms/
+https://www.lambda3.com.br/2018/01/instrumentacao-completa-com-visual-studio-app-center/
+
+https://developer.xamarin.com/samples/xamarin-forms/all/
+https://www.xamarin.com/prebuilt
+
+//Xamarin Essentials!
+https://docs.microsoft.com/en-us/xamarin/essentials/
+
+https://github.com/xamarin/xamarin-forms-samples/blob/master/MobileCRM/MobileCRM.Shared/ViewModels/LoginViewModel.cs
+
+
+https://www.youtube.com/watch?v=Yr7pGCsGmQ0
+https://www.youtube.com/watch?v=y9wACg61r4M
+
+http://www.macoratti.net/17/10/xf_login1.htm
+
+https://timeyoutake.it/2016/01/02/creating-a-left-toolbaritem-in-xamarin-forms/
+http://www.randrade.net/2017/01/09/listviews-com-xaml-no-xamarin-forms-por-onde-comecar/
+
+
+https://stackoverflow.com/questions/48988751/how-to-bind-list-inside-listview-in-xamarin-forms?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://montemagno.com/enhancing-xamarin-forms-listview-with-grouping/
+
+//list grouping
+https://github.com/xamarin/xamarin-forms-samples/blob/master/UserInterface/ListView/Grouping/groupingSampleListView/groupingSampleListView/Views/GroupedListXaml.xaml.cs
+http://www.compliancestudio.io/blog/xamarin-forms-expandable-listview
+https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/listview/customizing-list-appearance#Grouping
+
+//multiselect listview
+https://xamarinhelp.com/multiselect-listview-xamarin-forms/
+
+//localization
+https://docs.microsoft.com/pt-br/xamarin/ios/app-fundamentals/localization/
+
+//behaviors
+https://blog.xamarin.com/behaviors-in-xamarin-forms/
+(email validation, number, rating, etc )
+
+         * https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/tableview
+         * https://github.com/conceptdev/xamarin-forms-samples/tree/master/DialogPro
+         * https://github.com/XLabs/Xamarin-Forms-Labs

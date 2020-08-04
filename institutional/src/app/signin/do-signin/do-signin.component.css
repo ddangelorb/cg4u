@@ -1,0 +1,23 @@
+.doSigninBody {
+  height: 100vh;
+  background-image: linear-gradient(10deg, #2ba6cb, #FFFFFF);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.inputbox {
+    font-size:20px; 
+    color: grey;
+    width:25%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.submit {
+  font-size:25px; 
+  color: white;
+  background: #0BAAC6;
+  width:25%;
+  margin-bottom: 15px;
+  border: 0ch;
+}

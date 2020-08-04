@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{DB765E6A-B4C4-4A24-A35D-51384027349B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CG4U.Donate.ClientApp.Med</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AboutViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\GivenPage.xaml.cs">
+      <DependentUpon>GivenPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DesiredPage.xaml.cs">
+      <DependentUpon>DesiredPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TradePage.xaml.cs">
+      <DependentUpon>TradePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\LoginViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AccountService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\DonationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TradeService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DonationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Mock\MockAccountService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Mock\MockDonationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootDonation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootDonationName.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootClaim.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootIdentityError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootLogin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootRegister.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootEvaluation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootTrade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootDesired.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Root\RootGiven.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Donation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\GroupModelCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Mock\MockTradeService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SearchPage.xaml.cs">
+      <DependentUpon>SearchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TradeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Trade.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\IAccountService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\IDonationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Interfaces\ITradeService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GivenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IPicturePicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\EmailValidatorBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\NumberValidatorBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behaviors\MaskedBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Trade\NewBlankTradePage.xaml.cs">
+      <DependentUpon>NewBlankTradePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewBlankTradeViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\AboutPage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\GivenPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\DesiredPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\TradePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SearchPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Trade\NewBlankTradePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Mock\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Root\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\Interfaces\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Interfaces\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Behaviors\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Given\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Desired\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Config\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Home\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Views\Trade\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persons\" />
+    <Folder Include="ImageProcess\" />
+    <Folder Include="ImageProcess\Commands\" />
+    <Folder Include="ImageProcess\Events\" />
+    <Folder Include="ImageProcess\Models\" />
+    <Folder Include="ImageProcess\Repository\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Configuration\Repository\" />
+    <Folder Include="Persons\Repository\" />
+    <Folder Include="Persons\Commands\" />
+    <Folder Include="Persons\Events\" />
+    <Folder Include="Persons\Models\" />
+    <Folder Include="Configuration\Commands\" />
+    <Folder Include="Configuration\Events\" />
+    <Folder Include="Configuration\Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Analisys\RequestTypeNames.cs" />
+    <Compile Remove="ImageProcess\Events\SceneChangeCustomAnalisysAddedEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Common.Domain\CG4U.Core.Common.Domain.csproj" />
+  </ItemGroup>
+</Project>

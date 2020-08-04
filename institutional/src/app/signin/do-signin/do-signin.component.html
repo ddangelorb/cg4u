@@ -1,0 +1,20 @@
+
+  <div class='doSigninBody' ng-view>
+    <div align="center">
+        <img src="/assets/img//cog4Login.png" />
+    </div>
+    <div align="center">
+        <input type="email"  class="inputbox" placeholder="email@server.com" />
+    </div>
+    <div align="center">
+        <input type="password" class="inputbox"  placeholder="password" />
+    </div>    
+    <div align="center">
+      <span>
+        <a [routerLink]="['/dashboard']">
+          <button class="submit" id="Add">Login</button>
+        </a>
+      </span>
+    </div>
+  </div>
+

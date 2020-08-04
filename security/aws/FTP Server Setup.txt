@@ -1,0 +1,50 @@
+###
+#https://gist.github.com/tylermakin/4f633ad05a846ef62906e28aab922ecf
+#https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html
+###
+
+#https://www.youtube.com/watch?v=FvOdeHlfM-Q
+#AWS New FTP Server
+#create a Ubuntu Linux AMI
+
+#connect into new instance via SSH
+
+$ sudo su
+apt-get update
+apt-get install apache2
+apt-get install vsftpd
+
+#open up the FTP ports 20-21 and 1024-1048 on EC2 instance
+
+nano /etc/vsftpd.conf
+    anonymous_enable=NO
+
+    #already exist but is commented out with #:
+    write_enable=YES
+    chroot_local_user=YES
+    #add this line
+    allow_writable_chroot=YES
+
+
+    #add following to the final
+    pasv_enable=YES
+    pasv_min_port=1024
+    pasv_max_port=1048
+    port_enable=YES
+    pasv_address=<YOUR_IP>
+
+    #optional: SSL TLS
+    #https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html    
+    #https://serverfault.com/questions/774961/unable-to-access-vsftpd-from-public-ip
+
+service vsftpd restart    
+
+adduser cgftpuser
+
+cd /var/www/html/
+mkdir cgftpuser
+
+sudo usermod -d /var/www/html/cgftpuser cgftpuser
+service vsftpd restart
+
+chmod 0777 -R cgftpuser

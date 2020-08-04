@@ -1,0 +1,606 @@
+2018-02-19 11:42:47.7797 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 11:45:54.1836 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:14:19.4407 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:15:56.6213 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:18:24.8077 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:43:50.7652 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:45:29.0219 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:51:50.4672 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:53:04.4418 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:54:14.2931 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 12:56:18.2123 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 13:01:00.9535 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-19 13:01:46.4585 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:04:46.1191 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:08:13.8608 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:09:25.0176 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:11:26.5495 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:13:12.7261 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:19:25.7431 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:23:16.9693 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:24:35.3529 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:30:59.4147 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:42:28.4042 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:43:55.9618 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:47:12.1397 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 05:50:09.5530 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:02:28.2313 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:09:46.2498 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:11:18.3575 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:12:07.5249 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:14:13.6133 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:17:54.1857 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:22:02.4565 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:23:36.8643 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:28:12.5232 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:29:37.2409 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:30:26.0125 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:31:13.1051 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:31:58.5175 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:32:31.7483 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:34:38.5100 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:37:40.9361 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:50:15.5996 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:54:27.4098 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:55:48.6980 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:57:49.1795 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 06:59:16.9412 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 07:08:18.2821 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 07:09:57.1755 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:00:30.3155 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:03:47.9358 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:07:42.8545 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:10:08.2033 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:11:50.6092 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:13:44.1234 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:16:57.5808 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:21:20.2529 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:29:06.7084 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:32:32.3577 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:37:30.3267 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:41:30.2050 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:46:09.0510 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 08:53:27.7455 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:00:10.9783 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:01:15.5656 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:02:29.2953 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:13:35.2580 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:16:47.4261 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:17:51.8390 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:21:36.1949 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:22:29.4709 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:24:03.1340 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:25:59.9731 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:27:03.5424 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:34:08.0725 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:36:02.6295 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:37:28.1088 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:44:46.0648 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:51:07.4861 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-20 09:58:43.1254 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 19:40:40.8337 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 19:43:41.4551 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 19:44:54.6892 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 19:53:38.1692 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 19:54:17.4007 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 20:00:45.0241 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 20:03:58.6809 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-23 20:06:49.0142 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 10:36:48.0116 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 10:37:42.3030 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 10:39:16.8203 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 10:46:37.0173 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 10:49:22.5652 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 18:43:14.4789 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-08 19:02:53.9392 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-09 13:23:28.5231 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-10 09:59:40.4634 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-11 08:43:59.5804 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-11 19:52:38.2430 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-13 21:36:36.2189 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-05-14 09:41:07.6816 Error Parsing configuration from /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing /Users/danieldangeloresendebarros/Projects/cg4u/donate/server/src/CG4U.Donate.WebAPI/nlog.config.  ---> NLog.NLogConfigurationException: Target blackhole not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---

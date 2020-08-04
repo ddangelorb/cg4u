@@ -1,0 +1,47 @@
+//https://medium.com/@lugrugzo/asp-net-core-2-0-webapi-jwt-authentication-with-identity-mysql-3698eeba6ff8
+//https://www.blinkingcaret.com/2017/09/06/secure-web-api-in-asp-net-core/
+//https://www.blinkingcaret.com/2016/11/30/asp-net-identity-core-from-scratch/
+
+//https://github.com/dotnet/docs/blob/master/docs/standard/microservices-architecture/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-API-Gateway-pattern.md
+
+
+curl -X POST \
+  http://localhost:5000/Account/Register \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "Name": "Daniel Barros",
+	"Email": "danieldrb@hotmail.com",
+	"Password": "SomeSecurePassword123!",
+    "PasswordConfirmation": "SomeSecurePassword123!"
+}'
+
+{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJEb25hdGlvbiI6IkRvbmF0aW9uLkdldEJ5SWQiLCJzdWIiOiJmZDdhMjU2MC0yMmRjLTQzYTgtODg5YS1iZmE2ZTc4YzhjMmMiLCJlbWFpbCI6ImRhbmllbGRyYkBob3RtYWlsLmNvbSIsImp0aSI6IjkzYWUzZDRkLTI3ZjEtNDU0Ni1iZGIzLWM2MjExZjk3ZmU4ZCIsImlhdCI6MTUxOTc0NDA0OSwiZXhwIjoxNTE5NzYyMDQ4LCJpc3MiOiJDRzRVLkF1dGguV2ViQVBJLlRva2VuU2VydmVyIiwiYXVkIjoiaHR0cDovL3d3dy5jZzR1LmNvbS9hdXRoIn0.mhNeZNAmYdpiSVoezcHLkfRQAaK-JEk1eJfoAhIXoa4"
+,"expires_in":"2018-02-27T17:07:28.565588-03:00","user":{"id":"fd7a2560-22dc-43a8-889a-bfa6e78c8c2c","nome":"danieldrb@hotmail.com","email":"danieldrb@hotmail.com","claims":[{"type":"Donation","value":"Donation.GetById"},{"type":"sub","value":"fd7a2560-22dc-43a8-889a-bfa6e78c8c2c"},{"type":"email","value":"danieldrb@hotmail.com"},{"type":"jti","value":"93ae3d4d-27f1-4546-bdb3-c6211f97fe8d"},{"type":"iat","value":"1519744049"}]}}
+curl -X GET \
+  http://localhost:5000/Account/Protected \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'
+
+curl -X GET \
+  http://localhost:5000/Account/Protected \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjM2ZiMDExMi1iZTFmLTRhZTMtYjE5Mi1jY2MzNjYyNDk1MjkiLCJlbWFpbCI6ImRhbmllbGRyYkBob3RtYWlsLmNvbSIsImp0aSI6IjgxMTY0ZTI3LWQyMGItNGRjZS1iNzVkLWI3MzAzOTU5MWM5MyIsImlhdCI6MTUxOTQyNDQzNywiZXhwIjoxNTE5NDQyNDM3LCJpc3MiOiJDRzRVLkF1dGguV2ViQVBJLlRva2VuU2VydmVyIiwiYXVkIjoiaHR0cDovL3d3dy5jZzR1LmNvbS9hdXRoIn0.LyHInQQ8ORGU6am0GOVFeujIwC2E49ASCB-aa4uMD-k' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'
+
+  curl -X GET \
+  http://localhost:5000/Donation/Protected \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'
+
+curl -X GET \
+  http://localhost:5000/Donation/Protected \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjM2ZiMDExMi1iZTFmLTRhZTMtYjE5Mi1jY2MzNjYyNDk1MjkiLCJlbWFpbCI6ImRhbmllbGRyYkBob3RtYWlsLmNvbSIsImp0aSI6IjgxMTY0ZTI3LWQyMGItNGRjZS1iNzVkLWI3MzAzOTU5MWM5MyIsImlhdCI6MTUxOTQyNDQzNywiZXhwIjoxNTE5NDQyNDM3LCJpc3MiOiJDRzRVLkF1dGguV2ViQVBJLlRva2VuU2VydmVyIiwiYXVkIjoiaHR0cDovL3d3dy5jZzR1LmNvbS9hdXRoIn0.LyHInQQ8ORGU6am0GOVFeujIwC2E49ASCB-aa4uMD-k' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'
+
+  curl -X GET \
+  http://localhost:5000/Donation/Protected \
+  -H 'authorization: Bearer xpto' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json'

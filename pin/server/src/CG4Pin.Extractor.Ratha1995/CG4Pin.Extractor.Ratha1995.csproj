@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CG4Pin.Core\CG4Pin.Core.csproj" />
+    <ProjectReference Include="..\CG4Pin.Image\CG4Pin.Image.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0-preview-20170628-02" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Img\Faces\1\1.DanielDisney.png" />
+    <None Remove="Img\Faces\1\1.DanielDisney2.png" />
+    <None Remove="Img\Faces\1\1.DanielVaranda.jpg" />
+    <None Remove="Img\Faces\2\2.FabiDisney.png" />
+    <None Remove="Img\Faces\2\2.FabiDisney2.png" />
+    <None Remove="Img\Faces\2\2.FabiHardRock.jpg" />
+    <None Remove="Img\Thumbnail\out000090.png" />
+    <None Remove="Img\Thumbnail\out000240.png" />
+    <None Remove="Img\Thumbnail\out000390.png" />
+    <None Remove="Img\Thumbnail\out000540.png" />
+    <None Remove="Img\Thumbnail\out000690.png" />
+    <None Remove="Img\Thumbnail\out000840.png" />
+    <None Remove="Img\Thumbnail\out000990.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DTO\" />
+    <Folder Include="Img\" />
+    <Folder Include="Configs\" />
+    <Folder Include="Img\Faces\" />
+    <Folder Include="Img\Faces\1\" />
+    <Folder Include="Img\Faces\2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\auth\server\src\CG4U.Auth.WebAPI\CG4U.Auth.WebAPI.csproj" />
+    <ProjectReference Include="..\..\src\CG4U.Security.WebAPI\CG4U.Security.WebAPI.csproj" />
+    <ProjectReference Include="..\..\..\..\core\server\src\CG4U.Core.Services\CG4U.Core.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Img\Faces\1\1.DanielDisney.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Faces\1\1.DanielDisney2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Faces\1\1.DanielVaranda.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Faces\2\2.FabiDisney.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Faces\2\2.FabiDisney2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Faces\2\2.FabiHardRock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000090.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000240.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000390.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000540.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000690.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000840.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Img\Thumbnail\out000990.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

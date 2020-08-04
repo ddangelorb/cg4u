@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:FormsVideoLibrary"
+    x:Class="CG4U.Security.ClientApp.Views.VideoPage">
+
+    <local:VideoPlayer
+    Source="https://b-647daf39.kinesisvideo.us-west-2.amazonaws.com/hls/v1/getHLSMasterPlaylist.m3u8?SessionToken=CiDD-8eR3ybDjuGWC8ubzRUVS6LlRn16rtr-nmrW1L-J0xIQ7vpOAxbszgHF7CLwm7QabBoZ4IN-bH-1trrHNHHGNtaLOYv5XNdKt86f3SIgx6TYvOXThLLNv3O4eRzW4R-b8Xq8tZcZ9xcWH4S081I~"/>
+    
+</ContentPage>

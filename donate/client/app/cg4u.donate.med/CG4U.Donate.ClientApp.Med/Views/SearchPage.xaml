@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Name="SearchPage" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CG4U.Donate.ClientApp.Med.Views.SearchPage" Title="Buscar">
+    <ContentPage.ToolbarItems>
+        <!-- <ToolbarItem Name="MenuCG4UMedIcon" Icon="tab_cg4med.png" Order="Primary" Priority="0" /> -->
+        <!-- <ToolbarItem Name="MenuUserIcon" Icon="tab_user.png" Order="Primary" Priority="1" /> -->
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    </ContentPage.Content>
+    <ScrollView Grid.Row="1">
+        <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
+            <SearchBar x:Name="searchBar" Text="{Binding Query, Mode=TwoWay}" SearchCommand="{Binding SearchCommand}" BackgroundColor="Transparent" Placeholder="Selecione..."/>
+            <!-- GroupShortNameBinding="{Binding ShortName}" -->
+            <ListView x:Name="GroupedDonationView"
+                ItemsSource="{Binding GroupedDonationList}"
+                GroupDisplayBinding="{Binding Title}"
+                RowHeight="75"
+                IsGroupingEnabled="true">
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                      <ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="5,5,5,5" BackgroundColor="{StaticResource Accent}">
+                          <Button Image="tab_pill.png"
+                                  BackgroundColor="Transparent"
+                                  BorderColor="Transparent"
+                                  BorderWidth="0"
+                                  Clicked="OnButtonImageTapped"
+                                  CommandParameter="{Binding .}"/>
+                          <Label Text="{Binding TitleWithItemCount}" 
+                                 TextColor="White"
+                                 FontSize="15"
+                                 VerticalOptions="Center"/>
+                        </StackLayout>
+                      </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Padding="5,10,5,10">
+                                    <Grid VerticalOptions="FillAndExpand" BackgroundColor="White">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                                            <ColumnDefinition Width="20"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.Column="0" Text="{Binding Name}" VerticalTextAlignment="Center" />
+                                        <Button Grid.Column="1" Image="tab_plus.png" BackgroundColor="Transparent" BorderColor="Transparent" BorderWidth="0" Clicked="OnButtonTradeTappedAsync" CommandParameter="{Binding .}" />
+                                    </Grid>
+                                </StackLayout>                            
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>             
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
